@@ -1,0 +1,16 @@
+//linux ss 安装指令, 博客地址：https://segmentfault.com/a/1190000015558387//
+
+wget --no-check-certificate -O shadowsocks.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks.sh
+
+chmod +x shadowsocks.sh
+./shadowsocks.sh 2>&1 | tee shadowsocks.log
+
+
+//安装bbr加速脚本 博客地址:https://www.94ish.me/1635.html //
+wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh"
+chmod +x tcp.sh
+./tcp.sh
+
+
+
+
